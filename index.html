@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpForm</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="image-logo">
+     
+        <div class="card">
+            <div>
+                SAAAS
+            </div> 
+        </div>
+        </div>
+
+        <div class="content" >
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris gravida lorem eu metus sagittis, in dictum eros congue. Sed vulputate efficitur diam sed rhoncus. Ut vehicula, tortor sit amet venenatis posuere, lectus elit iaculis velit, vitae posuere libero risus eu tellus. Proin mauris augue, ultricies fermentum mauris ac, pharetra congue leo. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="forms-container" style="color: #202538; font-weight: 600;">
+                <div class="forms-title" style="margin-bottom: 10px; font-size: 24px;">Let's do this</div>
+                <form action="">
+
+                    <div class="row">
+                        <span style="display:inline-block">
+                            <label for="firstName" >FIRST NAME: </label>
+                            <input type="text" id="firstName" placeholder="John" required>
+                        </span>
+    
+                        <span style="display:inline-block">
+                            <label for="lastName">LAST NAME: </label>
+                            <input type="text" id="lastName" placeholder="Doe" required>
+                        </span>    
+                    </div>
+
+                    <div class="row">
+                        <span style="display:inline-block">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" placeholder="johndoe@email.com" pattern="(^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$)" title="Please enter a valid email" required>    
+                        </span>
+    
+                        <span style="display:inline-block">    
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="number" id="phoneNumber" placeholder="(00)00000-0000" required>
+                        </span>
+                    </div>
+
+                    <div class="row">
+                        <span style="display:inline-block">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" placeholder=" " required>
+                        </span>
+    
+                        <span style="display:inline-block">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmPassword" placeholder=" " required>
+                        </span>
+                    </div>
+
+                  
+                  
+               
+            </div>
+            <div class="third-container">
+                <button type="submit" class="btn-create">Create Account</button>
+            </form>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
